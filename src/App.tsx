@@ -1,24 +1,38 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { Header, Project } from "./components";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      {/* learn react props! */}
+      {/* <Project name = "2D game" description /> */}
+      <div className="Intro">
+        <h1>Paula Rynty</h1>
+        <div className="body-text">
+          <p>
+            From human resources specialist, through copywriting and design, to
+            a frontend developer.
+          </p>
+          <br></br>
+          <p>
+            Currently juggling programming studies at Hive Helsinki, may be
+            spotted crafting or café hopping (or both!) in her spare time.
+          </p>
+        </div>
+      </div>
+      <div className="Projects">
+        <h1>Projects</h1>
+        <div className="Projects-container">
+          <Project name="Mikke!" description="Kanji app made with React and TypeScript"/>
+          <Project name="To-do list" description="To-do list app"/>
+          <Project name="2D game" description="Made with C"/>
+        </div>
+      </div>
+      <footer className="footer">
+        <p>© Paula Rynty 2024</p>
+      </footer>
     </div>
   );
 }

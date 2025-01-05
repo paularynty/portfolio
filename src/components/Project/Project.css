@@ -1,0 +1,48 @@
+
+  .Projects-subcontainer {
+    align-items: center;
+    display: flex;
+    flex: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 50px;
+    height: min-content;
+    justify-content: center;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+    width: 100%;
+  }
+  
+  .Projects-image {
+    align-items: center;
+    /* max-width: 300px; */
+    aspect-ratio: 1.333 / 1;
+    background: linear-gradient(180deg, var(--token-11dab1c1-ce69-43f5-99ba-2f5a404fcafc, #cfecff) 0%, var(--token-003f7a06-7a49-44ee-b932-7e9040747fa3, rgb(0, 73, 122)) 100%);
+    border-radius: 20px;
+    display: flex;
+    flex: 1 0 0px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    justify-content: center;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 1px;
+  }
+  
+  .Projects-description {
+    align-content: flex-start;
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 1 0 0px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: auto;
+    justify-content: center;
+    padding: 0;
+    position: relative;
+    width: 1px;
+  }
