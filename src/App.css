@@ -10,25 +10,7 @@
   }
 }
 
-.Skills-container {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  color: #000000;
-  padding: 0rem 0rem 2rem 0rem;
-  background-color: #F7F7F7;
-  text-align: left;
-  h1 {
-    margin: 0.6rem auto;
-  }
-  p {
-    font-family: "Inter", sans-serif;
-    color: #888888;
-    margin: 0.3rem auto;
-  }
-}
-
-.Projects {
+.Section-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -40,22 +22,6 @@
   p {
     margin: 0px;
   }
-}
-
-.Projects-container {
-  align-content: center;
-  align-items: center;
-  display: flex;
-  flex: none;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  gap: 40px;
-  height: min-content;
-  justify-content: center;
-  max-width: 100%;
-  overflow: visible;
-  padding: 30px;
-  position: relative;
 }
 
 .Contact {
