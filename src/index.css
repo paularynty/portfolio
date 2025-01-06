@@ -1,11 +1,11 @@
 body {
   margin: 0;
-  font-family: 'Instrument Serif', italic;
+  font-family: "Instrument Serif", italic;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
   h1 {
-    font-family: 'Instrument Serif', italic;
+    font-family: "Instrument Serif", italic;
     font-weight: inherit;
     font-size: 44px;
   }
