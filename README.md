@@ -1,8 +1,4 @@
-# Paula Rynty's Portfolio
-
-## Demo
-
-Check out the live portfolio: [https://paularynty.vercel.app](https://paularynty.com)
+# [Paula Rynty's Portfolio](https://paularynty.vercel.app)
 
 <!-- ![Portfolio Screenshot](./screenshots/portfolio-home.png) -->
 
