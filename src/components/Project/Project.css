@@ -1,57 +1,81 @@
+.Projects-container {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 40px;
+  height: min-content;
+  justify-content: center;
+  max-width: 100%;
+  overflow: visible;
+  padding: 30px;
+  position: relative;
+}
 
-  .Projects-subcontainer {
-    align-items: center;
-    display: flex;
-    flex: none;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    gap: 50px;
-    height: min-content;
-    justify-content: center;
-    overflow: visible;
-    padding: 0;
-    position: relative;
-    width: 100%;
-  }
-  
-  .Projects-image {
-    align-items: center;
-    /* max-width: 300px; */
-    aspect-ratio: 1.333 / 1;
-    background: linear-gradient(180deg, var(--token-11dab1c1-ce69-43f5-99ba-2f5a404fcafc, #cfecff) 0%, var(--token-003f7a06-7a49-44ee-b932-7e9040747fa3, #00497a) 100%);
-    border-radius: 20px;
-    display: flex;
-    flex: 1 0 0px;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    gap: 10px;
-    justify-content: center;
-    overflow: hidden;
-    padding: 0;
-    position: relative;
-    width: 1px;
-  }
-  
-  .Projects-description {
-    align-content: flex-start;
-    align-items: flex-start;
-    align-self: stretch;
-    display: flex;
-    flex: 1 0 0px;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    height: auto;
-    justify-content: center;
-    padding: 0;
-    position: relative;
-    width: 1px;
-  }
+.Projects-subcontainer {
+  align-items: center;
+  display: flex;
+  flex: none;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 50px;
+  height: min-content;
+  justify-content: center;
+  overflow: visible;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
 
-  a {
-    text-decoration: none;
-    color: black;
-  }
+.Projects-image {
+  align-items: center;
+  /* max-width: 300px; */
+  aspect-ratio: 1.333 / 1;
+  background: linear-gradient(
+    180deg,
+    var(--token-11dab1c1-ce69-43f5-99ba-2f5a404fcafc, #cfecff) 0%,
+    var(--token-003f7a06-7a49-44ee-b932-7e9040747fa3, #00497a) 100%
+  );
+  border-radius: 20px;
+  display: flex;
+  flex: 1 0 0px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 10px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  width: 1px;
+}
 
-  a:hover {
-    color: #00497a;
+.Projects-description {
+  align-content: flex-start;
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 1 0 0px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: auto;
+  justify-content: center;
+  padding: 0;
+  position: relative;
+  width: 1px;
+  p {
+    text-align: left;
+    font-family: "Inter", sans-serif;
+    color: #888888;
   }
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #00497a;
+}

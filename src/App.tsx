@@ -17,7 +17,7 @@ export default function App() {
           <Route path="/project/:projectName" element={<ProjectDetails />} />
         </Routes>
         <footer className="footer">
-          <p>© Paula Rynty 2024</p>
+          <p>© Paula Rynty 2025</p>
         </footer>
       </div>
     </Router>
