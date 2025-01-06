@@ -35,20 +35,28 @@ My personal portfolio website. Built with React and TypeScript. It showcases my 
 ### Local setup
 
 1. Clone this repository in a Terminal window:
-   ```git clone https://github.com/yourusername/portfolio.git
-   cd portfolio```
+   ```
+   git clone https://github.com/yourusername/portfolio.git
+   cd portfolio
+   ```
 2. Install dependencies:
-   ```npm install```
-3. Start the development server:
-   ```npm start```
-4. Open your browser and navigate to:
-   ```http://localhost:3000```
+   ```
+   npm install
+   ```
+4. Start the development server:
+   ```
+   npm start
+   ```
+6. Open your browser and navigate to:
+   ```
+   http://localhost:3000
+   ```
 
 ### Production build
 
 To create a production build, run:
 
-```bash
+```
 npm run build
 ```
 
@@ -72,9 +80,7 @@ src/
 As an ever-evolving developer, I gratefully welcome any feedback and suggestions on my website. 
 Feel free to fork the repository, create an issue, or reach out to me directly.
 
-## Contact
-
-Created by Paula Rynty
+## Contact me
 
 - [LinkedIn](https://www.linkedin.com/in/paularynty)
 - [GitHub](https://github.com/paularynty)
