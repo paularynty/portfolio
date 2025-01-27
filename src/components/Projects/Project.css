@@ -52,22 +52,24 @@
 }
 
 .Projects-description {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 0px;
   align-content: flex-start;
   align-items: flex-start;
   align-self: stretch;
-  display: flex;
-  flex: 1 0 0px;
-  flex-direction: column;
   flex-wrap: nowrap;
   height: auto;
   justify-content: center;
   padding: 0;
   position: relative;
-  width: 1px;
   p {
     text-align: left;
     font-family: "Inter", sans-serif;
     color: #888888;
+  }
+  h1 {
+    text-align: left;
   }
 }
 

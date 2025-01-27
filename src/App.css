@@ -1,10 +1,17 @@
 .App {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .Intro {
   text-align: left;
-  padding: 0px 30px 0px 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 0 2rem;
+  margin-bottom: 2rem;
   p {
     margin: 0px;
   }
@@ -15,9 +22,7 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  background-color: #F7F7F7;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  background-color: #f7f7f7;
   font-family: "Instrument Serif", italic;
   p {
     margin: 0px;
@@ -58,6 +63,7 @@ h1 {
 .body-text {
   font-family: "Inter", sans-serif;
   color: #888888;
+  text-wrap: wrap;
   padding-bottom: 20px;
   p {
     margin: 0px auto;
@@ -68,10 +74,14 @@ h1 {
   display: flex;
   background-color: #222222;
   font-family: "Inter", sans-serif;
-  color: #F7F7F7;
+  color: #f7f7f7;
   padding: 20px;
   justify-content: left;
   p {
     margin: 0;
   }
+}
+
+code {
+  font-family: "Inter", sans-serif;
 }
