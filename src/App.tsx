@@ -1,4 +1,3 @@
-import React from "react";
 import "./App.css";
 import { Header } from "./components";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -11,13 +10,11 @@ export default function App() {
       <div className="App">
         <Header />
         <Routes>
-          {/* learn react props! */}
-          {/* <Project name = "2D game" description /> */}
           <Route path="/" element={<Home />} />
           <Route path="/project/:projectName" element={<ProjectDetails />} />
         </Routes>
         <footer className="footer">
-          <p>© Paula Rynty 2025</p>
+          <p>© Paula Rynty 2025. Website built with React and Typescript.</p>
         </footer>
       </div>
     </Router>

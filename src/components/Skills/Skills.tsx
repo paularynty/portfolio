@@ -1,13 +1,14 @@
 import "./Skills.css";
 
-export const Skill = (props: { category: string; skills: string[] }) => {
+export const Skill = (elements: { category: string; skills: string[] }) => {
+  const { category, skills } = elements;
   return (
     <div className="Skills-subcontainer">
-      <h1>{props.category}</h1>
+      <h1>{category}</h1>
       <ul className="Skills-list">
-        {props.skills.map((skill, index) => (
-            <li key={index}>{skill}</li>
-      ))}
+        {skills.map((skill, index) => (
+          <li key={index}>{skill}</li>
+        ))}
       </ul>
     </div>
   );

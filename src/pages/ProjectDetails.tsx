@@ -1,40 +1,24 @@
 import React from "react";
 import { useParams } from "react-router-dom";
+import ReactMarkdown from "react-markdown";
+import { projectData } from "../data/projectData";
 
 export const ProjectDetails = () => {
   const { projectName } = useParams<{ projectName: string }>();
-
-  const projects = {
-    "mikke!": {
-      name: "Mikke!",
-      description: "Kanji app made with React and TypeScript.",
-      details: "More details about Mikke! go here.",
-    },
-    "to-do-list": {
-      name: "To-do List",
-      description: "To-do list app.",
-      details: "More details about the To-do List app go here.",
-    },
-    so_long: {
-      name: "So_long",
-      description: "2D game made with C.",
-      details: "More details about So_long go here.",
-    },
-  };
-
-  const project = projects[projectName as keyof typeof projects];
+  const project = projectData[projectName as keyof typeof projectData];
 
   if (!project) {
     return <h1>Could not find project.</h1>;
   }
+
   return (
     <div>
       <div className="Intro">
         <h1>{project.name}</h1>
         <div className="body-text">
-          <p>{project.description}</p>
+          <ReactMarkdown>{project.description}</ReactMarkdown>
           <br></br>
-          <p>{project.details}</p>
+          <ReactMarkdown>{project.details}</ReactMarkdown>
         </div>
       </div>
     </div>
