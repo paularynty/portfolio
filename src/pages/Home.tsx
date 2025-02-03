@@ -1,6 +1,7 @@
 import React from "react";
 import { Project, Skill } from "../components";
 import so_long from "../styles/images/so_long.png";
+import mikke from "../styles/images/mikke.png";
 
 export const Home = () => {
   return (
@@ -26,9 +27,11 @@ export const Home = () => {
           <Project
             name="Mikke!"
             description="Kanji learning and lookup web app"
+            image_path={mikke}
+
           />
           <Project
-            name="Baby Dragon's Lunchtime"
+            name="Lunchtime with Dragon"
             description="2D game made with C"
             image_path={so_long}
           />
@@ -70,6 +73,13 @@ export const Home = () => {
               "Time management",
             ]}
           />
+        </div>
+      </div>
+      <div className="Section-wrapper">
+        <h1>Let's connect?</h1>
+        <div className="contact">
+          <a href="mailto:paula.rynty@gmail.com">Email</a>
+          <a href="https://linkedin.com/in/paularynty/">LinkedIn</a>
         </div>
       </div>
     </div>

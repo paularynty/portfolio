@@ -34,8 +34,8 @@ export const projectData = {
 
   //     **Tech stack:** React and TypeScript.`,
   // },
-  "baby-dragons-lunchtime": {
-    name: "Baby Dragon's Lunchtime",
+  "lunchtime-with-dragon": {
+    name: "Lunchtime with Dragon",
     description: `
     A top-down 2D game built using only C, playable directly from the computer terminal.
     
