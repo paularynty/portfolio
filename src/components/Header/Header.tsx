@@ -8,7 +8,7 @@ export const Header = () => {
       </a>
       <div className="header-content-right">
         <a className="link" href="https://github.com/paularynty">
-          Github
+          GitHub
         </a>
         <a className="link" href="#contact">
           Contact

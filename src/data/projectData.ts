@@ -22,18 +22,8 @@ export const projectData = {
       - A database for saving favorites
       - Improved search functionality
       `,
+    link: "https://mikke-kanji.vercel.app/",
   },
-  // "to-do-list": {
-  //   name: "To-do List",
-  //   description:
-  //     "To-do list app to organize your tasks and increase productivity.",
-  //   details: `**Features:**
-  //     - Add, edit, and delete tasks
-  //     - Mark tasks as complete
-  //     - Responsive UI
-
-  //     **Tech stack:** React and TypeScript.`,
-  // },
   "lunchtime-with-dragon": {
     name: "Lunchtime with Dragon",
     description: `
@@ -60,5 +50,6 @@ export const projectData = {
 
     - C
     - MLX42 library (open-source alternative of the miniLibX)`,
+    link: "https://github.com/paularynty/so_long/",
   },
 };

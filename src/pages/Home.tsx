@@ -1,4 +1,4 @@
-import React from "react";
+// import { useRef } from "react";
 import { Project, Skill } from "../components";
 import so_long from "../styles/images/so_long.png";
 import mikke from "../styles/images/mikke.png";
@@ -12,6 +12,14 @@ export const Home = () => {
           <p>
             From human resources specialist, through copywriting and design, to
             a budding frontend developer.
+            {/* <button
+              onClick={() =>
+                contact.current?.scrollIntoView({
+                  behavior: "smooth",
+                })
+              }
+            >
+            </button> */}
           </p>
           <br></br>
           <p>
@@ -28,7 +36,6 @@ export const Home = () => {
             name="Mikke!"
             description="Kanji learning and lookup web app"
             image_path={mikke}
-
           />
           <Project
             name="Lunchtime with Dragon"
@@ -75,13 +82,19 @@ export const Home = () => {
           />
         </div>
       </div>
-      <div className="Section-wrapper">
+      <section className="Section-wrapper">
         <h1>Let's connect?</h1>
         <div className="contact">
-          <a href="mailto:paula.rynty@gmail.com">Email</a>
-          <a href="https://linkedin.com/in/paularynty/">LinkedIn</a>
+          <button onClick={() => window.open("mailto:paula.rynty@gmail.com")}>
+            Email
+          </button>
+          <button
+            onClick={() => window.open("https://linkedin.com/in/paularynty/")}
+          >
+            LinkedIn
+          </button>
         </div>
-      </div>
+      </section>
     </div>
   );
 };

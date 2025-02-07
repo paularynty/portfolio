@@ -1,9 +1,8 @@
-import React from "react";
 import { useParams } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
 import { projectData } from "../data/projectData";
 
-export const ProjectDetails = () => {
+export default function ProjectDetails() {
   const { projectName } = useParams<{ projectName: string }>();
   const project = projectData[projectName as keyof typeof projectData];
 
@@ -19,8 +18,16 @@ export const ProjectDetails = () => {
           <ReactMarkdown>{project.description}</ReactMarkdown>
           <br></br>
           <ReactMarkdown>{project.details}</ReactMarkdown>
+          <br></br>
+          <button
+            onClick={() =>
+              window.open(project.link, "_blank", "noopener,noreferrer")
+            }
+          >
+            Try it
+          </button>
         </div>
       </div>
     </div>
   );
-};
+}
