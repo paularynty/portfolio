@@ -23,10 +23,17 @@ export const Home = () => {
           </p>
           <br></br>
           <p>
-            Currently juggling programming studies at Hive Helsinki. May be
-            spotted crafting, climbing, or playing retro games in her spare
-            time.
+            Full-time student at{" "}
+            <a className="link" href="https://www.hive.fi/en/">
+              Hive Helsinki
+            </a>
+            , juggling gamedev, computer science and other cool stuff in C
+            language.
           </p>
+          <br></br>
+          <p>Part-time React, TypeScript, and UI/UX enjoyer.</p>
+          <br></br>
+          <p>Spare-time crafter, climber, and retro game lover.</p>
         </div>
       </div>
       <div className="Section-wrapper">
@@ -34,15 +41,14 @@ export const Home = () => {
         <div className="Projects-container">
           <Project
             name="Mikke!"
-            description="Kanji learning and lookup web app"
+            description="React and TypeScript web app for Japanese language learners. Allows lookup of kanji (Japanese character) by English word/meaning and provides detailed information on the respective kanji."
             image_path={mikke}
           />
           <Project
             name="Lunchtime with Dragon"
-            description="2D game made with C"
+            description="Top-down 2D game built with C, playable from the computer terminal. You play as a baby dragon, whose objective is to collect all of the fruits on the screen!"
             image_path={so_long}
           />
-          {/* <Project name="To-do list" description="To-do list app" /> */}
         </div>
       </div>
       <div className="Section-wrapper">
@@ -85,13 +91,16 @@ export const Home = () => {
       <section className="Section-wrapper">
         <h1>Let's connect?</h1>
         <div className="contact">
-          <button onClick={() => window.open("mailto:paula.rynty@gmail.com")}>
-            Email
+          <button onClick={() => window.open("https://github.com/paularynty/")}>
+            GitHub
           </button>
           <button
             onClick={() => window.open("https://linkedin.com/in/paularynty/")}
           >
             LinkedIn
+          </button>
+          <button onClick={() => window.open("mailto:paula.rynty@gmail.com")}>
+            Email
           </button>
         </div>
       </section>

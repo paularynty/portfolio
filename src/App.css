@@ -26,6 +26,15 @@
   background-color: #f7f7f7;
 }
 
+.contactPageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: #f7f7f7;
+  height: 100%
+}
+
 .contact {
   display: flex;
   flex-wrap: wrap;

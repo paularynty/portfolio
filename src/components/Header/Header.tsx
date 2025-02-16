@@ -7,10 +7,7 @@ export const Header = () => {
         Paula Rynty
       </a>
       <div className="header-content-right">
-        <a className="link" href="https://github.com/paularynty">
-          GitHub
-        </a>
-        <a className="link" href="#contact">
+        <a className="link" href="/contact">
           Contact
         </a>
       </div>

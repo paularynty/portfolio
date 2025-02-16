@@ -17,15 +17,9 @@ export default function ProjectDetails() {
         <div className="body-text">
           <ReactMarkdown>{project.description}</ReactMarkdown>
           <br></br>
-          <ReactMarkdown>{project.details}</ReactMarkdown>
+          <ReactMarkdown>{project?.details}</ReactMarkdown>
           <br></br>
-          <button
-            onClick={() =>
-              window.open(project.link, "_blank", "noopener,noreferrer")
-            }
-          >
-            Try it
-          </button>
+          <button onClick={() => window.open(project.link)}>Try it</button>
         </div>
       </div>
     </div>
