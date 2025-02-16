@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
 import { projectData } from "../data/projectData";
 
-export default function ProjectDetails() {
+export default function ProjectPage() {
   const { projectName } = useParams<{ projectName: string }>();
   const project = projectData[projectName as keyof typeof projectData];
 

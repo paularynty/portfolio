@@ -63,7 +63,7 @@
   padding: 0;
   position: relative;
   p {
-    text-align: left;
+    text-align: start;
     font-family: "Inter", sans-serif;
     color: #888888;
     display: flex;
@@ -71,7 +71,7 @@
     width: 80%;
   }
   h1 {
-    text-align: left;
+    text-align: start;
   }
 }
 

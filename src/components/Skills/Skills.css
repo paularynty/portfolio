@@ -7,9 +7,9 @@
   color: #000000;
   padding: 0;
   background-color: #f7f7f7;
-  text-align: left;
+  text-align: start;
   h1 {
-    text-align: left;
+    text-align: start;
     font-size: 32px;
     margin: 16px 0 16px 40px;
   }
@@ -22,7 +22,7 @@
   flex-wrap: nowrap;
   width: 100%;
   height: min-content;
-  justify-content: left;
+  justify-content: flex-start;
   padding: 1rem;
   position: relative;
   li {

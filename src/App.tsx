@@ -4,7 +4,7 @@ import { Header } from "./components";
 import { Home } from "./pages/Home";
 import { Contact } from "./pages/Contact";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import ProjectDetails from "./pages/ProjectDetails";
+import ProjectPage from "./pages/ProjectPage";
 
 // const handleClick = (section: React.MutableRefObject<HTMLElement | null>) => {
 //   section.current?.scrollIntoView({
@@ -19,7 +19,7 @@ export default function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/project/:projectName" element={<ProjectDetails />} />
+          <Route path="/project/:projectName" element={<ProjectPage />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <footer className="footer">
