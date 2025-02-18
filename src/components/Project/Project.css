@@ -32,11 +32,7 @@
 .Projects-image {
   align-items: center;
   aspect-ratio: 1.333 / 1;
-  background: linear-gradient(
-    180deg,
-    var(--token-11dab1c1-ce69-43f5-99ba-2f5a404fcafc, #cfecff) 0%,
-    var(--token-003f7a06-7a49-44ee-b932-7e9040747fa3, #00497a) 100%
-  );
+  background: transparent;
   border-radius: 20px;
   display: flex;
   flex: 1 0 0px;

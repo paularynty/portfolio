@@ -10,7 +10,7 @@ export const Home = () => {
         <h1>Paula Rynty</h1>
         <div className="body-text">
           <p>
-            From human resources specialist, through copywriting and design, to
+          🌱 From human resources specialist, through copywriting and design, to
             a budding frontend developer.
             {/* <button
               onClick={() =>
@@ -23,17 +23,16 @@ export const Home = () => {
           </p>
           <br></br>
           <p>
-            Full-time student at{" "}
+          🐝 Full-time student at{" "}
             <a className="link" href="https://www.hive.fi/en/">
               Hive Helsinki
-            </a>
-            , juggling gamedev, computer science and other cool stuff in C
+            </a>: juggling gamedev, computer science and other cool stuff in C
             language.
           </p>
           <br></br>
-          <p>Part-time React, TypeScript, and UI/UX enjoyer.</p>
+          <p>💫 Aspiring React, TypeScript, and UI/UX enjoyer.</p>
           <br></br>
-          <p>Spare-time crafter, climber, and retro game lover.</p>
+          <p>🎨 Spare-time crafter, climber, and retro game lover.</p>
         </div>
       </div>
       <div className="Section-wrapper">
