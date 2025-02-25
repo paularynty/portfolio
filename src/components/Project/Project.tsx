@@ -15,9 +15,7 @@ export const Project = (elements: {
     .toLowerCase()}`;
   return (
     <div className="Projects-subcontainer">
-      <div className="Projects-image">
-        <img src={image_path} alt="Project"></img>
-      </div>
+      <img src={image_path} alt="Project" className="Project-image" />
       <div className="Projects-description">
         <h1>
           <Link to={projectPath}>{name}</Link>
