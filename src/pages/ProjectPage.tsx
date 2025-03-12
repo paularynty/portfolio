@@ -12,15 +12,13 @@ export default function ProjectPage() {
 
   return (
     <div>
-      <div className="Intro">
+      <div>
         <h1>{project.name}</h1>
-        <div className="body-text">
           <ReactMarkdown>{project.description}</ReactMarkdown>
           <br></br>
           <ReactMarkdown>{project?.details}</ReactMarkdown>
           <br></br>
           <button onClick={() => window.open(project.link)}>Try it</button>
-        </div>
       </div>
     </div>
   );

@@ -1,3 +1,3 @@
-export { Header } from  "./Header/Header"
-export { Project } from  "./Project/Project"
-export { Skill } from  "./Skills/Skills"
+export { Header } from  "./Header"
+export { Project } from  "./Project"
+export { Skill } from  "./Skills"

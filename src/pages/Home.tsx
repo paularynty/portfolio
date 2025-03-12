@@ -1,58 +1,41 @@
-// import { useRef } from "react";
-import { Project, Skill } from "../components";
-import so_long from "../styles/images/so_long.png";
-import mikke from "../styles/images/mikke.png";
+import { Project, Skill } from "../components/index";
 
 export const Home = () => {
   return (
     <div>
-      <div className="Intro">
+      <div>
         <h1>Paula Rynty</h1>
-        <div className="body-text">
-          <p>
+        <p>
           🌱 From human resources specialist, through copywriting and design, to
-            a budding frontend developer.
-            {/* <button
-              onClick={() =>
-                contact.current?.scrollIntoView({
-                  behavior: "smooth",
-                })
-              }
-            >
-            </button> */}
-          </p>
-          <br></br>
-          <p>
+          a budding frontend developer.
+        </p>
+        <br></br>
+        <p>
           🐝 Full-time student at{" "}
-            <a className="link" href="https://www.hive.fi/en/">
-              Hive Helsinki
-            </a>: juggling gamedev, computer science and other cool stuff in C
-            language.
-          </p>
-          <br></br>
-          <p>💫 Aspiring React, TypeScript, and UI/UX enjoyer.</p>
-          <br></br>
-          <p>🎨 Spare-time crafter, climber, and retro game lover.</p>
-        </div>
+          <a href="https://www.hive.fi/en/">Hive Helsinki</a>: juggling computer
+          science, gamedev, and other cool stuff in C language.
+        </p>
+        <br></br>
+        <p>💫 Aspiring React, TypeScript, and UI/UX enjoyer.</p>
+        <br></br>
+        <p>🎨 Spare-time crafter, climber, and retro game lover.</p>
       </div>
-      <div className="Section-wrapper">
+      <div>
         <h1>Projects</h1>
-        <div className="Projects-container">
+        <div>
           <Project
             name="Mikke!"
             description="React and TypeScript web app for Japanese language learners. Allows lookup of kanji (Japanese character) by English word/meaning and provides detailed information on the respective kanji."
-            image_path={mikke}
           />
           <Project
             name="Lunchtime with Dragon"
             description="Top-down 2D game built with C, playable from the computer terminal. You play as a baby dragon, whose objective is to collect all of the fruits on the screen!"
-            image_path={so_long}
           />
         </div>
       </div>
-      <div className="Section-wrapper">
+      <div>
         <h1>Skills</h1>
-        <div className="Skills-container">
+        <div>
           <Skill
             category="Programming"
             skills={[
@@ -87,9 +70,9 @@ export const Home = () => {
           />
         </div>
       </div>
-      <section className="Section-wrapper">
+      <section>
         <h1>Let's connect?</h1>
-        <div className="contact">
+        <div>
           <a href="mailto:paula.rynty@gmail.com">Email</a>
           <a href="https://github.com/paularynty/">GitHub</a>
           <a href="https://linkedin.com/in/paularynty/">LinkedIn</a>

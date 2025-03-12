@@ -1,8 +1,8 @@
 export const Contact = () => {
   return (
-    <section className="contactPageContainer">
+    <section>
       <h1>Let's connect?</h1>
-      <div className="contact">
+      <div>
         <button onClick={() => window.open("https://github.com/paularynty/")}>
           GitHub
         </button>
