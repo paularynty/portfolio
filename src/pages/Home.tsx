@@ -90,17 +90,9 @@ export const Home = () => {
       <section className="Section-wrapper">
         <h1>Let's connect?</h1>
         <div className="contact">
-          <button onClick={() => window.open("https://github.com/paularynty/")}>
-            GitHub
-          </button>
-          <button
-            onClick={() => window.open("https://linkedin.com/in/paularynty/")}
-          >
-            LinkedIn
-          </button>
-          <button onClick={() => window.open("mailto:paula.rynty@gmail.com")}>
-            Email
-          </button>
+          <a href="mailto:paula.rynty@gmail.com">Email</a>
+          <a href="https://github.com/paularynty/">GitHub</a>
+          <a href="https://linkedin.com/in/paularynty/">LinkedIn</a>
         </div>
       </section>
     </div>
