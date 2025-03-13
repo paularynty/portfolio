@@ -19,23 +19,23 @@
 
 .Projects-subcontainer {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
-  gap: 50px;
+  gap: 6rem;
+  padding-inline-start: 8rem;
   /*flex-order: reverse-row to alternate image position*/
 }
 
 .Project-image {
-  min-width: 400px;
-  max-width: 50%;
+  min-width: 42rem;
+  max-width: 30%;
   /* width: clamp(
     700px,
     50vw,
     50%
   );  */
   /*dynamically resizes images, using minimum width, width and max width*/
-  max-width: 50%;
   object-fit: cover;
   aspect-ratio: 4 / 3;
   border-radius: 0.8rem;

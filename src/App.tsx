@@ -1,16 +1,9 @@
 import "./App.css";
-// import { useRef } from "react";
 import { Header } from "./components";
 import { Home } from "./pages/Home";
 import { Contact } from "./pages/Contact";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ProjectPage from "./pages/ProjectPage";
-
-// const handleClick = (section: React.MutableRefObject<HTMLElement | null>) => {
-//   section.current?.scrollIntoView({
-//     behavior: "smooth",
-//   });
-// };
 
 export default function App() {
   return (
